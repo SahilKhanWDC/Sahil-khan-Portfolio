@@ -221,60 +221,6 @@ footer{
     font-size: smaller;
 }
 
-@media screen and (max-width: 935px){
-    nav ul{
-        display: none;
-    }
-    .right-1 img{
-        width: 0px;
-    }
-
-    .left-1, .right-1{
-        font-size: large;
-    }
-
-    .btn{
-        padding: 5px 13px;
-    border: none;
-    border: 1px solid rgb(125, 125, 138);
-    font-size: small;
-    border-radius: 8px;
-    margin-top: 20px;
-    font-weight: 300;
-    cursor: pointer;
-    }
-
-    .cards > .card{
-        position: relative;
-        width: 80px;
-        height: 80px;
-        border: 1px solid rgb(112, 112, 209);
-        border-radius: 13px;
-        margin: 0px 4px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        font-size: xx-small;
-        transition: all ease;
-    }
-    
-    .card:hover{
-        scale: 1.05;
-        filter: brightness(1.3);
-        -webkit-box-shadow: 0 0 10px rgb(112, 112, 209);
-            box-shadow: 0 0 10px rgb(112, 112, 209);
-    }
-    
-    .card img{
-        width: 40px;    
-    }
-    .card p{
-        position: absolute;
-        bottom: 0;
-        padding: 3px 0;
-    }
-}
 @media screen and (max-width: 764px){
     nav ul{
         display: none;
@@ -370,10 +316,14 @@ footer{
     }
 
     .heading h2{
-        font-size: x-small;
+        font-size: large;
     }
     .heading > img{
         width: 25px;
+    }
+
+    .footer-heading h2{
+        font-size: large;
     }
 
     .cards > .card{
@@ -419,6 +369,99 @@ footer{
         width: 20px;
     }
 }
+
+@media screen and (max-width: 430px){
+    nav ul{
+        display: none;
+    }
+    .right-1 img{
+        width: 0px;
+    }
+
+    /* .left-1, .right-1{
+        font-size: large;
+    } */
+
+    .right-1{
+        width: 0px;
+    }
+
+    .left-1{
+        width: 100%;
+    text-align: center;
+    line-height: 30px;
+    }
+
+    .section2{
+        height: 80%;
+    }
+
+    footer{
+        height: 20vh;
+    }
+    .btn{
+        padding: 5px 13px;
+    border: none;
+    border: 1px solid rgb(125, 125, 138);
+    font-size: small;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    }
+
+    .card svg{
+        width: 25px;
+    }
+
+    .heading{
+        margin-top: 20px;
+    }
+
+    .footer-heading h2{
+        font-size: x-small;
+    }
+
+    .section2 .heading{
+        font-size: large;
+    }
+
+    .cards{
+        height: 40vh;
+    }
+
+    .cards > .card{
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border: 1px solid rgb(112, 112, 209);
+        border-radius: 13px;
+        margin: 10px 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 3px;
+        transition: all ease;
+    }
+    
+    .card:hover{
+        scale: 1.05;
+        filter: brightness(1.3);
+        -webkit-box-shadow: 0 0 10px rgb(112, 112, 209);
+            box-shadow: 0 0 10px rgb(112, 112, 209);
+    }
+    
+    .card img{
+        width: 25px;    
+    }
+    .card p{
+        position: absolute;
+        bottom: 0;
+        padding: 3px 0;
+    }
+}
+
 @media screen and (max-width: 285px){
     .nav-left{
         font-size: 10px;
@@ -522,4 +565,6 @@ footer{
         font: xx-small;
     }
 }
+
+
 
